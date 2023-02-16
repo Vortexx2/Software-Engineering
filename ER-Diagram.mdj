@@ -1,0 +1,948 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "ERDDataModel",
+			"_id": "AAAAAAGGU1F+Q4l5zIM=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Data Model1",
+			"ownedElements": [
+				{
+					"_type": "ERDDiagram",
+					"_id": "AAAAAAGGU1F+RIl6ffc=",
+					"_parent": {
+						"$ref": "AAAAAAGGU1F+Q4l5zIM="
+					},
+					"name": "ERDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGGU1I+3YmS54Q=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"model": {
+								"$ref": "AAAAAAGGU1I+3ImQxoA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGGU1I+3YmTsIs=",
+									"_parent": {
+										"$ref": "AAAAAAGGU1I+3YmS54Q="
+									},
+									"font": "Arial;13;1",
+									"left": 104,
+									"top": 125,
+									"width": 80,
+									"height": 13,
+									"text": "Voter"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGGU1I+3YmUNiw=",
+									"_parent": {
+										"$ref": "AAAAAAGGU1I+3YmS54Q="
+									},
+									"model": {
+										"$ref": "AAAAAAGGU1I+3ImQxoA="
+									},
+									"font": "Arial;13;0",
+									"left": 104,
+									"top": 143,
+									"width": 80,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 104,
+							"top": 120,
+							"width": 80,
+							"height": 48,
+							"nameLabel": {
+								"$ref": "AAAAAAGGU1I+3YmTsIs="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGGU1I+3YmUNiw="
+							}
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGGU1Kd0omegZc=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 40,
+							"top": 32,
+							"width": 88,
+							"height": 50
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU1MPNYmnLf8=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 48,
+							"top": 40,
+							"width": 64,
+							"height": 32,
+							"text": "Name",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGGU1OolImwEKU=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 232,
+							"top": 32,
+							"width": 80,
+							"height": 50
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU1PF9YmzfBg=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 40,
+							"width": 60,
+							"height": 25,
+							"text": "Voter ID",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGGU1RGWYm6jPg=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 40,
+							"top": 208,
+							"width": 88,
+							"height": 56
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU1RcKYm9JiE=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 48,
+							"top": 216,
+							"width": 72,
+							"height": 32,
+							"text": "Reg. no.",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGGU1je6InpV8o=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"model": {
+								"$ref": "AAAAAAGGU1je54nndJI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGGU1je6YnqSlo=",
+									"_parent": {
+										"$ref": "AAAAAAGGU1je6InpV8o="
+									},
+									"font": "Arial;13;1",
+									"left": 664,
+									"top": 93,
+									"width": 200,
+									"height": 13,
+									"text": "Polling Officer"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGGU1je6Ynruw4=",
+									"_parent": {
+										"$ref": "AAAAAAGGU1je6InpV8o="
+									},
+									"model": {
+										"$ref": "AAAAAAGGU1je54nndJI="
+									},
+									"font": "Arial;13;0",
+									"left": 664,
+									"top": 111,
+									"width": 200,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 664,
+							"top": 88,
+							"width": 200,
+							"height": 41,
+							"nameLabel": {
+								"$ref": "AAAAAAGGU1je6YnqSlo="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGGU1je6Ynruw4="
+							}
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGGU1l+zYn21mg=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 560,
+							"top": 16,
+							"width": 96,
+							"height": 56
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGGU1mjF4n5a4g=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 872,
+							"top": 16,
+							"width": 104,
+							"height": 56
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU1nA/In8hpU=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 576,
+							"top": 24,
+							"width": 64,
+							"height": 38,
+							"text": "Officer Name",
+							"horzAlign": 2
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU1pDFIoEkOw=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 896,
+							"top": 24,
+							"width": 60,
+							"height": 40,
+							"text": "Officer ID",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGGU1qx8YoMa0I=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"model": {
+								"$ref": "AAAAAAGGU1qx8IoKPOA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGGU1qx8YoNwpU=",
+									"_parent": {
+										"$ref": "AAAAAAGGU1qx8YoMa0I="
+									},
+									"font": "Arial;13;1",
+									"left": 816,
+									"top": 285,
+									"width": 144,
+									"height": 13,
+									"text": "Election"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGGU1qx8ooO6sU=",
+									"_parent": {
+										"$ref": "AAAAAAGGU1qx8YoMa0I="
+									},
+									"model": {
+										"$ref": "AAAAAAGGU1qx8IoKPOA="
+									},
+									"font": "Arial;13;0",
+									"left": 816,
+									"top": 303,
+									"width": 144,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 816,
+							"top": 280,
+							"width": 144,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAGGU1qx8YoNwpU="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGGU1qx8ooO6sU="
+							}
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGGU1r+x4obu3k=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"model": {
+								"$ref": "AAAAAAGGU1r+xooZUPc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGGU1r+x4ocg98=",
+									"_parent": {
+										"$ref": "AAAAAAGGU1r+x4obu3k="
+									},
+									"font": "Arial;13;1",
+									"left": 120,
+									"top": 445,
+									"width": 142.18994140625,
+									"height": 13,
+									"text": "Election Commission"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGGU1r+x4oda5Q=",
+									"_parent": {
+										"$ref": "AAAAAAGGU1r+x4obu3k="
+									},
+									"model": {
+										"$ref": "AAAAAAGGU1r+xooZUPc="
+									},
+									"font": "Arial;13;0",
+									"left": 120,
+									"top": 463,
+									"width": 142.18994140625,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 120,
+							"top": 440,
+							"width": 142.18994140625,
+							"height": 41,
+							"nameLabel": {
+								"$ref": "AAAAAAGGU1r+x4ocg98="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGGU1r+x4oda5Q="
+							}
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGGU1tgO4opna0=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"model": {
+								"$ref": "AAAAAAGGU1tgOoon7Kw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGGU1tgO4oqECs=",
+									"_parent": {
+										"$ref": "AAAAAAGGU1tgO4opna0="
+									},
+									"font": "Arial;13;1",
+									"left": 624,
+									"top": 509,
+									"width": 200,
+									"height": 13,
+									"text": "Candidate"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGGU1tgO4or9nE=",
+									"_parent": {
+										"$ref": "AAAAAAGGU1tgO4opna0="
+									},
+									"model": {
+										"$ref": "AAAAAAGGU1tgOoon7Kw="
+									},
+									"font": "Arial;13;0",
+									"left": 624,
+									"top": 527,
+									"width": 200,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 624,
+							"top": 504,
+							"width": 200,
+							"height": 104,
+							"nameLabel": {
+								"$ref": "AAAAAAGGU1tgO4oqECs="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGGU1tgO4or9nE="
+							}
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGGU1u4Xoo0qmM=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 504,
+							"top": 632,
+							"width": 104,
+							"height": 72
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU1vZtIo3Be4=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 520,
+							"top": 648,
+							"width": 72,
+							"height": 40,
+							"text": "Reg. No."
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGGU1wi64o73kM=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 680,
+							"top": 656,
+							"width": 112,
+							"height": 64
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU1w9Goo+3XA=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 696,
+							"top": 672,
+							"width": 80,
+							"height": 38,
+							"text": "Candidate ID",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGGU1ykk4pE90s=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 880,
+							"top": 504,
+							"width": 96,
+							"height": 56
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU1zCbYpHxpQ=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 896,
+							"top": 520,
+							"width": 64,
+							"height": 25,
+							"text": "Name",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU19JLIpXVfc=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "88:72;115:122"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU19hQYpauH8=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "240:64;171:121"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU195d4pdfYA=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "80:208;110:163"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU1+t3Ipijig=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "640:56;678:89"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU1/DuoplJmg=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "880:56;847:91"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU1/kR4poGb8=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "584:640;627:605"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU1/3o4prPDY=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "736:656;732:596"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2AlVopvqHA=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "880:536;822:548"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2CeKopy9z4=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "432:224;384:272"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2DFuop1Yps=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "384:272;434:306"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2D0/Yp4rDg=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "424:304;472:264"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2ES4Ip7d5E=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "472:264;429:223"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU2FGYYp/fQ8=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 400,
+							"top": 256,
+							"width": 60,
+							"height": 25,
+							"text": "Votes In"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2GkjYqE0CU=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "176:152;401:256"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2HWiIqH3Tc=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "464:256;818:307"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2Md8oqM7j8=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "816:168;766:210"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2M+y4qPCNI=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "760:200;829:235"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2Nl7YqSYjM=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "808:168;865:201"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2Os0IqWmFo=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "824:232;866:200"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU2PT14qZ0z0=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 784,
+							"top": 192,
+							"width": 64.919921875,
+							"height": 25,
+							"text": "Conducts",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2RB3oqg0Jg=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "456:360;400:413"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2RaKYqjQGY=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "448:360;496:408"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2R3UoqmjZo=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "400:408;448:448"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2SMbYqp5fM=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "496:400;444:449"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU2UcJYqwNSA=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 416,
+							"top": 392,
+							"width": 67.80810546875,
+							"height": 25,
+							"text": "Supervise"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2VZ+Yq0+ks=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "808:368;736:415"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2V6O4q3w5M=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "808:368;865:414"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2XBb4q8bcY=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "736:408;804:442"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2Xe54q/rXU=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "800:440;864:408"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU2YfOYrFs0Q=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 768,
+							"top": 400,
+							"width": 72,
+							"height": 16
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGGU2ZOvIrI7mE=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"left": 768,
+							"top": 400,
+							"width": 72,
+							"height": 32,
+							"text": "Registers"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2aZqIrNPUE=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "256:440;404:410"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2a19orQk4A=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "488:400;816:320"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2bv+YrUx3s=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "800:120;812:172"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2cQV4rXqfk=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "824:224;866:283"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2cwFIraEt0=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "824:320;810:373"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGGU2dO0YrdTzc=",
+							"_parent": {
+								"$ref": "AAAAAAGGU1F+RIl6ffc="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "792:432;749:507"
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGGU1HlO4l+jzQ=",
+					"_parent": {
+						"$ref": "AAAAAAGGU1F+Q4l5zIM="
+					},
+					"name": "Entity1"
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGGU1I+3ImQxoA=",
+					"_parent": {
+						"$ref": "AAAAAAGGU1F+Q4l5zIM="
+					},
+					"name": "Voter"
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGGU1je54nndJI=",
+					"_parent": {
+						"$ref": "AAAAAAGGU1F+Q4l5zIM="
+					},
+					"name": "Polling Officer"
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGGU1qx8IoKPOA=",
+					"_parent": {
+						"$ref": "AAAAAAGGU1F+Q4l5zIM="
+					},
+					"name": "Election"
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGGU1r+xooZUPc=",
+					"_parent": {
+						"$ref": "AAAAAAGGU1F+Q4l5zIM="
+					},
+					"name": "Election Commission"
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGGU1tgOoon7Kw=",
+					"_parent": {
+						"$ref": "AAAAAAGGU1F+Q4l5zIM="
+					},
+					"name": "Candidate"
+				}
+			]
+		}
+	]
+}
